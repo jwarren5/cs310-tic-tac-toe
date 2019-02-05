@@ -32,7 +32,7 @@ public class TicTacToeViewTest {
     public void testViewOfBlankGrid() {
         
         view.showBoard(model.toString());
-        String s = "\n\n  012\n\n0 ---\n1 ---\n2 ---\n\n";
+        String s = "\n\n  012\n\n0 ---\n1 ---\n2 ---\n";
         assertEquals(s.length(), output.size());
         
     }
